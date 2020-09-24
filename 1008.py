@@ -1,6 +1,3 @@
-a = "1 3"
+A, B = list(map(int,input().split()))
 
-a = list(map(int,a.split()))
-#a = list(map(int,input().split()))
-
-print(a[0]/a[1])
+print(A/B)
